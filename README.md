@@ -11,3 +11,19 @@ Currently, two official plugins are available:
 
 - Project Setup Guide: [Click here](https://vite.dev/guide/#scaffolding-your-first-vite-project)
 - Tailwind Installation Guide: [Click here](https://tailwindcss.com/docs/guides/vite)
+
+## Project Structure
+
+`src/assets`
+- Static or dynamically generated images will go here.
+
+`src/components`
+- Reusable (global) components will go here.
+
+`src/pages`
+- Pages/Routes will go here.
+- If the project structure is too complex, you can also have seperate directories for seperate routes, or even something like this:
+  - eg: `src/pages/admin/*`, or `src/pages/dashboard/*`
+
+`src/hooks`
+- Custom hooks will go here.
